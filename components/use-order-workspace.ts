@@ -11,7 +11,7 @@ export type PaymentMode = "sample" | "sandbox";
 export type CalculationSource = "local" | "server" | "ai";
 export type BuyerApprovals = Partial<Record<BuyerId, boolean>>;
 export type Receipt = { kind: PaymentMode; amountCents: number; reference: string };
-export type PublicConfig = { aiReady: boolean; paypalReady: boolean; paypalClientId?: string; mode: "sandbox" };
+export type PublicConfig = { aiReady: boolean; paypalReady: boolean; mode: "sandbox" };
 export type ServerProposal = {
   proposalId: string; fingerprint: string; mode: "rules_demo" | "live_ai"; proposal: Proposal;
   aiSelection?: GroundedAISelection | null; expiresAt?: number;

@@ -32,7 +32,6 @@ export function getPublicConfig() {
   return {
     aiReady: config.aiReady,
     paypalReady: config.paypalReady,
-    paypalClientId: config.paypalReady ? config.paypalClientId : "",
     mode: "sandbox" as const,
     workspaceMode: "single-owner-persona-simulation" as const,
     supplierVerified: false,

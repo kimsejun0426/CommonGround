@@ -9,7 +9,7 @@ import type { GroundedAISelection } from "@/lib/ai-proposal";
 
 type Lang = "en" | "ko";
 type Phase = "requests" | "proposal" | "checkout";
-type PublicConfig = { aiReady: boolean; paypalReady: boolean; paypalClientId?: string; mode: "sandbox" };
+type PublicConfig = { aiReady: boolean; paypalReady: boolean; mode: "sandbox" };
 type ServerProposal = { proposalId: string; fingerprint: string; mode: "rules_demo" | "live_ai"; proposal: Proposal; aiSelection?: GroundedAISelection | null };
 type Receipt = { kind: "sample" | "sandbox"; amountCents: number; reference: string };
 type QuoteStatus = { quoteId: string; scenario: Scenario; approvedBuyerIds: BuyerId[]; proposalId: string; fingerprint: string; mode: "rules_demo" | "live_ai"; current: boolean; readyToProceed: boolean; payments: { buyerId: BuyerId; orderId: string; approvalUrl?: string | null; status: string; amountCents: number; captureId?: string; verified: boolean }[] };

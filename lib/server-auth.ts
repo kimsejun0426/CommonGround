@@ -12,5 +12,5 @@ export async function requireApiOwner(request: Request): Promise<string> {
     enabled: getRuntimeValue("ALLOW_LOCAL_DEMO_AUTH"),
     hostname: new URL(request.url).hostname,
   })) return "local-owner";
-  throw new ApiError(401, "AUTH_REQUIRED", "Sign in to this private CommonGround workspace to continue.");
+  throw new ApiError(401, "AUTH_REQUIRED", "Sign in with ChatGPT to access your CommonGround workspace.");
 }
