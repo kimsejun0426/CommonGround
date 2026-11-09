@@ -2,9 +2,9 @@
 
 ## Open the live demo
 
-Open CommonGround in English. The public sample lets you compare plans, review changes and complete a simulated checkout without an account. For actual OpenAI and PayPal actions, choose **Sign in with ChatGPT** on the hosted site. Each authenticated visitor gets their own workspace. Sandbox approval also requires a PayPal Sandbox buyer account. [CommonGround live demo](https://commonground-sejun-2026.pplower.chatgpt.site)
+Open CommonGround in English. The public sample lets you compare plans, review changes and complete a simulated checkout without an account. For actual OpenAI and PayPal actions, choose **Sign in with ChatGPT** on the hosted site. Each authenticated visitor gets their own workspace. Sandbox approval also requires a PayPal Sandbox buyer account. [CommonGround live demo](https://commonground-sejun-2026.pplower.chatgpt.site) · [Watch the 1:51 demo on YouTube](https://youtu.be/S2poxOXK078)
 
-You can also run the project locally. Install from the checked-in lockfile, build the Worker, initialize a fresh local D1 database and launch the portable dev server. Follow the [repository setup instructions](../README.md#local-setup).
+You can also run the project locally. Install from the checked-in lockfile, build the Worker, initialize a fresh local D1 database and launch the portable dev server. Follow the [repository setup instructions](https://github.com/kimsejun0426/CommonGround#local-setup).
 
 ## Follow one shared order
 

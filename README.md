@@ -4,7 +4,7 @@
 
 Three small brands need 100 boxes. LUMA wants 40 black cartons. JUNIPER and FORMA want 35 and 25 kraft cartons. Their supplier’s minimum is 100 **per carton type**, so neither order qualifies. CommonGround helps the brands decide whether a shared kraft carton, individual branding and a revised allocation would meet every buyer’s terms.
 
-[Open the demo](https://commonground-sejun-2026.pplower.chatgpt.site) · [Judge walkthrough](docs/JUDGE_WALKTHROUGH.md)
+[Open the live demo](https://commonground-sejun-2026.pplower.chatgpt.site) · [Watch the 1:51 demo on YouTube](https://youtu.be/S2poxOXK078) · [Judge walkthrough](docs/JUDGE_WALKTHROUGH.md)
 
 ![CommonGround packaging example with a black LUMA sleeve and individual JUNIPER and FORMA labels on a shared kraft carton](public/images/commonground-share.jpg)
 
